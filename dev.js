@@ -12,3 +12,6 @@ while ((nb!== sol) && (tent<8))
     tent++;
     var nb=Number(prompt('donner un numero'))
 } 
+if (nb== sol) 
+{console.log('Bravo! La solution= '+sol);}
+else {console.log('Vous avez perdu :(');}
