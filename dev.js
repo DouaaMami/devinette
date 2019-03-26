@@ -1,2 +1,3 @@
 console.log('Bienvenue au jeu');
-var x= prompt('donner un numero');
+var sol=Math.floor(Math.random()*100);
+
